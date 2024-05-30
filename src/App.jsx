@@ -21,10 +21,15 @@ function App() {
     imagem: 'https://salvatore.academy/devmon/4_c.png',
     evoluiPara: 'C++'
   }
+  const Cplusplus = {
+    name: 'C++',
+    imagem: 'https://salvatore.academy/devmon/5_cpp.png',
+    evoluiPara: 'C#'
+  }
   
 
 
-  const devmons = [Java, Kotlin, Android, C]
+  const devmons = [Java, Kotlin, Android, C, Cplusplus]
 
   return (
     <>
